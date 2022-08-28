@@ -1,0 +1,60 @@
+doctype html
+html
+    head
+        link(rel="stylesheet" href="style.css")
+        style @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+        style @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+        style @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@500&display=swap');
+    body
+        #backdrop
+            #container
+                .team
+                    h3#home HOME
+                    .score-wrapper
+                        p.score#score-home 0
+                    .btn-wrapper
+                        button.btn#add1-home +1
+                        button.btn#add2-home +2
+                        button.btn#add3-home +3
+                .team
+                    h3#guest GUEST
+                    .score-wrapper
+                        p.score#score-guest 0
+                    .btn-wrapper
+                        button.btn#add1-guest +1
+                        button.btn#add2-guest +2
+                        button.btn#add3-guest +3
+                #btn-undo
+                #btn-mode to dark mode
+                button.fadeOut#btn-info i
+        aside.fadeIn#info
+            button#btn-info-close +
+            | A gimmick basketball game score counter. Designed and coded by
+            a(href="https://www.linkedin.com/in/alex-fisher-1b445b9a/" target="_blank")  Alex&nbsp;Fisher
+            |  in&nbsp;Aug 2022 as a solo project within
+            a(href="https://scrimba.com/learn/frontend/solo-project-basketball-scoreboard-cz9adVfP" target="_blank")  Scrimba's
+            em  Frontend Career Path
+            |  course.
+            | I give my kind regards to
+            a(href="https://twitter.com/perborgen" target="_blank")  Per Borgen
+            |  for the wonderful learning experience!&ensp;
+            span.emoji 👍
+            p#credits
+                span#caps Credits:&ensp;
+                a(href="https://unsplash.com/@jcgellidon" target="_blank") JC Gellidon
+                | ,
+                a(href="https://unsplash.com/@jonasjacobsson" target="_blank")  Jonas Jacobsson
+                |  @ Unsplash.com for background photos&emsp;|&emsp;
+                a(href="https://www.freepik.com/free-vector/noise-background_992066.htm" target="_blank")  dotstudio
+                | ,
+                a(href="https://www.freepik.com/free-vector/turquoise-seamless-zigzag-pattern-vector_4168464.htm" target="_blank")  rawpixel.com
+                |  @ Freepik.com for textures&emsp;|&emsp;
+                a(href="https://iconmonstr.com/undo-6-svg/" target="_blank")  Iconmonstr.com
+                |  for an icon&emsp;|&emsp;
+                a(href="https://www.fontspace.com/digital-display-font-f31011" target="_blank") Allison James
+                |  for an LCD-style font-face&emsp;|&emsp;
+                a(href="https://www.dafont.com/digital-display.font" target="_blank") Dafont.com
+                |  for ease of fonts picking and downloading&emsp;|&emsp;
+                a(href="https://transfonter.org/" target="_blank") Transfonter.org
+                |  for generating a pack of web fonts from a single TTF file.
+        script(src="index.js")
