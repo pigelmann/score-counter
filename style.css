@@ -114,18 +114,6 @@ body {
     text-shadow: 5px -3px 2px hsla(200, 12%, 5%, 16%);
 }
 
-/*.score::before {*/
-/*    content: '88';*/
-/*    position: absolute;*/
-/*    left:30px;*/
-/*    !*background-color: red;*!*/
-/*    -webkit-background-clip: text;*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    background-image: url(images/hatch.jpg);*/
-/*    background-size: 30%;*/
-/*    background-blend-mode: multiply;*/
-/*}*/
-
 .score-wrapper.dark {
     background: hsl(213, 11%, 5%);
     border: 3px solid #1A1D20;
@@ -179,6 +167,7 @@ body {
 .scoreSmaller {
     font-size: 90px;
     padding-right: 17px;
+    background-size: 16.4%;
 }
 
 .scoreSmaller::after {
